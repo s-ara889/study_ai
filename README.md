@@ -39,6 +39,3 @@ It helps students learn faster using AI-generated explanations, summaries, quizz
 ```bash
 flutter pub get
 flutter run
-```bash
-flutter pub get
-flutter run
