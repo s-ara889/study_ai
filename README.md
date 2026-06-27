@@ -1,41 +1,16 @@
-# 📚 StudyAI
+# study_ai
 
-StudyAI is an AI-powered learning assistant built with Flutter and Firebase.  
-It helps students learn faster using AI-generated explanations, summaries, quizzes, flashcards, and document understanding.
+A new Flutter project.
 
----
+## Getting Started
 
-## 🚀 Features
+This project is a starting point for a Flutter application.
 
-- 💬 AI Tutor (Explain any topic step-by-step)
-- 📄 PDF Upload & Analysis
-- 🧠 Quiz Generator
-- 🧾 Flashcards Generator
-- 📊 Smart Summarization
-- 🔥 Firebase Authentication
-- ☁️ Cloud chat history (Firestore)
+A few resources to get you started if this is your first Flutter project:
 
----
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-## 🛠️ Tech Stack
-
-- Flutter (Frontend)
-- Firebase (Auth + Firestore + Storage)
-- Gemini API (AI Engine)
-- HTTP (API calls)
-
----
-
-## 📱 App Modes
-
-- Tutor Mode → Explains concepts clearly  
-- Summary Mode → Converts notes into short summaries  
-- Quiz Mode → Generates MCQs  
-- Flashcards Mode → Generates Q/A cards   
-
----
-
-## 📦 Installation
-```bash
-flutter pub get
-flutter run
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

@@ -1,0 +1,40 @@
+[debug] [2026-06-23T20:43:47.574Z] ----------------------------------------------------------------------
+[debug] [2026-06-23T20:43:47.578Z] Command:       D:\courses\node.exe C:\Users\saraa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:list
+[debug] [2026-06-23T20:43:47.578Z] CLI Version:   15.22.1
+[debug] [2026-06-23T20:43:47.578Z] Platform:      win32
+[debug] [2026-06-23T20:43:47.578Z] Node Version:  v24.17.0
+[debug] [2026-06-23T20:43:47.578Z] Detected Agent: unknown
+[debug] [2026-06-23T20:43:47.578Z] Time:          Tue Jun 23 2026 23:43:47 GMT+0300 (Eastern European Summer Time)
+[debug] [2026-06-23T20:43:47.578Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-23T20:43:47.585Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-23T20:43:47.585Z] > authorizing via signed-in user (sarah.m.j.h.986@gmail.com)
+[debug] [2026-06-23T20:43:47.591Z] Checked if tokens are valid: true, expires at: 1782250417808
+[debug] [2026-06-23T20:43:47.591Z] Checked if tokens are valid: true, expires at: 1782250417808
+[debug] [2026-06-23T20:43:47.592Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2026-06-23T20:43:48.163Z] FetchError: Invalid response body while trying to fetch https://firebase.googleapis.com/v1beta1/projects?pageSize=1000: Premature close
+[debug] [2026-06-23T20:43:48.360Z] FirebaseError: FetchError: Invalid response body while trying to fetch https://firebase.googleapis.com/v1beta1/projects?pageSize=1000: Premature close
+    at RetryOperation._fn (C:\Users\saraa\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:317:88)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2026-06-23T20:44:51.652Z] ----------------------------------------------------------------------
+[debug] [2026-06-23T20:44:51.655Z] Command:       D:\courses\node.exe C:\Users\saraa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:list
+[debug] [2026-06-23T20:44:51.655Z] CLI Version:   15.22.1
+[debug] [2026-06-23T20:44:51.655Z] Platform:      win32
+[debug] [2026-06-23T20:44:51.655Z] Node Version:  v24.17.0
+[debug] [2026-06-23T20:44:51.655Z] Detected Agent: unknown
+[debug] [2026-06-23T20:44:51.655Z] Time:          Tue Jun 23 2026 23:44:51 GMT+0300 (Eastern European Summer Time)
+[debug] [2026-06-23T20:44:51.655Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-23T20:44:51.662Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-23T20:44:51.662Z] > authorizing via signed-in user (sarah.m.j.h.986@gmail.com)
+[debug] [2026-06-23T20:44:51.666Z] Checked if tokens are valid: true, expires at: 1782250417808
+[debug] [2026-06-23T20:44:51.666Z] Checked if tokens are valid: true, expires at: 1782250417808
+[debug] [2026-06-23T20:44:51.668Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2026-06-23T20:44:52.326Z] FetchError: Invalid response body while trying to fetch https://firebase.googleapis.com/v1beta1/projects?pageSize=1000: Premature close
+[debug] [2026-06-23T20:44:52.541Z] FirebaseError: FetchError: Invalid response body while trying to fetch https://firebase.googleapis.com/v1beta1/projects?pageSize=1000: Premature close
+    at RetryOperation._fn (C:\Users\saraa\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:317:88)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
